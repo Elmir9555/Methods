@@ -1,0 +1,26 @@
+﻿using System;
+
+namespace arraysummethod
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] digit = { 5, 3, 8, 4, 22, 12, 48 };
+            SumDigit(digit);
+
+        }
+        static void SumDigit(int[] odd)
+        {
+            int sum = 0;
+            foreach(var item in odd)
+            {
+                if(item%2==0)
+                {
+                    sum += item;
+                }
+            }
+            Console.WriteLine(sum);
+        }
+    }
+}

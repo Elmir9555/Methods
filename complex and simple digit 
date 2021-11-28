@@ -1,0 +1,33 @@
+﻿using System;
+
+namespace complexandsimpledigit
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Digit(10);
+        }
+        static void Digit(int n)
+        {
+            int y = 0;
+            for(int i=2;i<n;i++)
+            {
+                if(n%i==0)
+                {
+                    y++;
+                }
+            }
+            if(y==0)
+            {
+                Console.WriteLine("bu eded sade ededdir...");
+            }
+            else
+            {
+                Console.WriteLine("bu eded murekkeb ededdir");
+            }
+
+        }
+
+    }
+}

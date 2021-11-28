@@ -1,0 +1,31 @@
+﻿using System;
+
+namespace homework
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+          
+            Divide(84);
+
+           
+        }
+       static void Divide(int n)
+         {
+            if(n%3==0 && n%7==0)
+            {
+                Console.WriteLine("Bu eded 3 e ve 7ye tam bolunur..");
+            }
+            else
+            {
+                Console.WriteLine("bu eded 3e veya 7ye qaliqsiz bolunmur..");
+            }
+
+         }
+            
+    
+
+    
+    }
+}

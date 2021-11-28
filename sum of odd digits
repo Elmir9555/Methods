@@ -1,0 +1,25 @@
+﻿using System;
+
+namespace sumodddigit
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            OddSum(5,13); 
+        }
+        static void OddSum(int n,int m)
+        {
+            int sum = 0;
+            for(int i=n;i<m;i++)
+            {
+                if(i%2==1)
+                {
+                    sum += i;
+                }
+                
+            }
+            Console.WriteLine(sum);
+        }
+    }
+}

@@ -1,0 +1,29 @@
+using System;
+
+namespace frew
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Count(3,6);
+
+
+        }
+
+        static void Count(int n, int m)
+        {
+
+            for (int i = n; i < m; i++)
+            {
+                if (i % 2 == 1)
+                {
+                    Console.WriteLine(i);
+                }
+              
+                
+
+            }
+        }
+    }
+}
